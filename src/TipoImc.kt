@@ -5,6 +5,7 @@
  * @property imcMax Valor máximo del IMC para este tipo.
  * @property desc Descripción asociada al tipo de IMC.
  */
+
 enum class TipoImc(val imcMin: Double,val imcMax: Double, val desc: String) {
     INSUFICIENTE(0.0, 18.4, "Peso insuficiente"),
     SALUDABLE(18.5, 24.9, "Peso saludable"),
